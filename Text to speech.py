@@ -37,34 +37,3 @@ btn.pack(side=tk.LEFT,padx=10)
 
 root.mainloop()
 
-
-'''
-for i in range(1,6):
-    for j in range(1,6):
-     print("*",end="")
-
-    print("")    
-  
-
-no_rows=int(input("enter the number:"))
-for row in range(1,no_rows+1):
-    for coloum in range(1,row+1):
-        print(coloum,end="")
-    print("")    
-
-for row in range(no_rows-1,0,-1):
-    for coloum in range(1,row+1):
-        print(coloum,end="")
-    print("")'''
-
-
-'''no_rows = int(input ("enter the no. of rows ="))
-for row in range(1,no_rows+1):
-    for coloum in range (1,row+1):
-        print("{0}{1}".format(row,coloum) ,end=" ")
-    print()    
-
-for row in range(no_rows-1,0,-1):
-    for coloum in range (1,row+1):
-         print("{0}{1}".format(row,coloum) ,end=" ")
-    print()'''
